@@ -1,6 +1,4 @@
 FROM nginx:stable
-RUN apt update
-Run apt upgrade
 EXPOSE 80
 CMD ["nginx","-g","daemon off;"]
 
